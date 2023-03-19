@@ -44,7 +44,6 @@ const Products = ({ setMenu }) => {
     const selected = useSelector((state) => state.products.selected);
     const loading = useSelector((state) => state.products.loading);
 
-    
     const columns = [
         {
             field: "name",
